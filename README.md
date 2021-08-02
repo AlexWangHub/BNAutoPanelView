@@ -22,4 +22,4 @@ Github代码链接：[AutoPanelView](https://github.com/BNineCoding/BNAutoPanelV
 
 架构逻辑如下：
 
-![](https://tva1.sinaimg.cn/large/008i3skNgy1gt2jr8ett4j314o0gqdif.jpg)
+![](https://tva1.sinaimg.cn/large/008i3skNgy1gt2p6mnnyyj30xn0l1juu.jpg)
