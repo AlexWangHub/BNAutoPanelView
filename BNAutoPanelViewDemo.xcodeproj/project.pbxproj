@@ -16,6 +16,13 @@
 		B82A5F1B26B7E000000CC73F /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = B82A5F1A26B7E000000CC73F /* main.m */; };
 		B82A5F2526B7E001000CC73F /* BNAutoPanelViewDemoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = B82A5F2426B7E001000CC73F /* BNAutoPanelViewDemoTests.m */; };
 		B82A5F3026B7E001000CC73F /* BNAutoPanelViewDemoUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = B82A5F2F26B7E001000CC73F /* BNAutoPanelViewDemoUITests.m */; };
+		B82A5F4426B7E03A000CC73F /* BNCommonBusinessView.m in Sources */ = {isa = PBXBuildFile; fileRef = B82A5F4026B7E03A000CC73F /* BNCommonBusinessView.m */; };
+		B82A5F4526B7E03A000CC73F /* BNCommonPanelView.m in Sources */ = {isa = PBXBuildFile; fileRef = B82A5F4126B7E03A000CC73F /* BNCommonPanelView.m */; };
+		B82A5F4626B7E03A000CC73F /* BNCommonPanelViewInfo.m in Sources */ = {isa = PBXBuildFile; fileRef = B82A5F4326B7E03A000CC73F /* BNCommonPanelViewInfo.m */; };
+		B82A5F4B26B7E0D7000CC73F /* UIView+Extend.m in Sources */ = {isa = PBXBuildFile; fileRef = B82A5F4A26B7E0D7000CC73F /* UIView+Extend.m */; };
+		B82A5F5126B7E146000CC73F /* BNBuildHelper.m in Sources */ = {isa = PBXBuildFile; fileRef = B82A5F4D26B7E146000CC73F /* BNBuildHelper.m */; };
+		B82A5F5226B7E146000CC73F /* BNToolHelper.m in Sources */ = {isa = PBXBuildFile; fileRef = B82A5F5026B7E146000CC73F /* BNToolHelper.m */; };
+		B82A5F5626B7E168000CC73F /* BNButton.m in Sources */ = {isa = PBXBuildFile; fileRef = B82A5F5526B7E168000CC73F /* BNButton.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -54,6 +61,21 @@
 		B82A5F2B26B7E001000CC73F /* BNAutoPanelViewDemoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BNAutoPanelViewDemoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		B82A5F2F26B7E001000CC73F /* BNAutoPanelViewDemoUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BNAutoPanelViewDemoUITests.m; sourceTree = "<group>"; };
 		B82A5F3126B7E001000CC73F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B82A5F3E26B7E03A000CC73F /* BNCommonBusinessView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BNCommonBusinessView.h; sourceTree = "<group>"; };
+		B82A5F3F26B7E03A000CC73F /* BNCommonPanelView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BNCommonPanelView.h; sourceTree = "<group>"; };
+		B82A5F4026B7E03A000CC73F /* BNCommonBusinessView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BNCommonBusinessView.m; sourceTree = "<group>"; };
+		B82A5F4126B7E03A000CC73F /* BNCommonPanelView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BNCommonPanelView.m; sourceTree = "<group>"; };
+		B82A5F4226B7E03A000CC73F /* BNCommonPanelViewInfo.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BNCommonPanelViewInfo.h; sourceTree = "<group>"; };
+		B82A5F4326B7E03A000CC73F /* BNCommonPanelViewInfo.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BNCommonPanelViewInfo.m; sourceTree = "<group>"; };
+		B82A5F4726B7E07B000CC73F /* BNDataDefine.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BNDataDefine.h; sourceTree = "<group>"; };
+		B82A5F4926B7E0D7000CC73F /* UIView+Extend.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+Extend.h"; sourceTree = "<group>"; };
+		B82A5F4A26B7E0D7000CC73F /* UIView+Extend.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+Extend.m"; sourceTree = "<group>"; };
+		B82A5F4D26B7E146000CC73F /* BNBuildHelper.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BNBuildHelper.m; sourceTree = "<group>"; };
+		B82A5F4E26B7E146000CC73F /* BNToolHelper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BNToolHelper.h; sourceTree = "<group>"; };
+		B82A5F4F26B7E146000CC73F /* BNBuildHelper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BNBuildHelper.h; sourceTree = "<group>"; };
+		B82A5F5026B7E146000CC73F /* BNToolHelper.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BNToolHelper.m; sourceTree = "<group>"; };
+		B82A5F5426B7E168000CC73F /* BNButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BNButton.h; sourceTree = "<group>"; };
+		B82A5F5526B7E168000CC73F /* BNButton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BNButton.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -104,6 +126,10 @@
 		B82A5F0726B7DFFF000CC73F /* BNAutoPanelViewDemo */ = {
 			isa = PBXGroup;
 			children = (
+				B82A5F5326B7E15B000CC73F /* View */,
+				B82A5F4C26B7E13B000CC73F /* Helper */,
+				B82A5F4826B7E0C8000CC73F /* Category */,
+				B82A5F3D26B7E02F000CC73F /* PanelView */,
 				B82A5F0826B7DFFF000CC73F /* AppDelegate.h */,
 				B82A5F0926B7DFFF000CC73F /* AppDelegate.m */,
 				B82A5F0B26B7DFFF000CC73F /* SceneDelegate.h */,
@@ -135,6 +161,49 @@
 				B82A5F3126B7E001000CC73F /* Info.plist */,
 			);
 			path = BNAutoPanelViewDemoUITests;
+			sourceTree = "<group>";
+		};
+		B82A5F3D26B7E02F000CC73F /* PanelView */ = {
+			isa = PBXGroup;
+			children = (
+				B82A5F4726B7E07B000CC73F /* BNDataDefine.h */,
+				B82A5F3E26B7E03A000CC73F /* BNCommonBusinessView.h */,
+				B82A5F4026B7E03A000CC73F /* BNCommonBusinessView.m */,
+				B82A5F3F26B7E03A000CC73F /* BNCommonPanelView.h */,
+				B82A5F4126B7E03A000CC73F /* BNCommonPanelView.m */,
+				B82A5F4226B7E03A000CC73F /* BNCommonPanelViewInfo.h */,
+				B82A5F4326B7E03A000CC73F /* BNCommonPanelViewInfo.m */,
+			);
+			path = PanelView;
+			sourceTree = "<group>";
+		};
+		B82A5F4826B7E0C8000CC73F /* Category */ = {
+			isa = PBXGroup;
+			children = (
+				B82A5F4926B7E0D7000CC73F /* UIView+Extend.h */,
+				B82A5F4A26B7E0D7000CC73F /* UIView+Extend.m */,
+			);
+			path = Category;
+			sourceTree = "<group>";
+		};
+		B82A5F4C26B7E13B000CC73F /* Helper */ = {
+			isa = PBXGroup;
+			children = (
+				B82A5F4F26B7E146000CC73F /* BNBuildHelper.h */,
+				B82A5F4D26B7E146000CC73F /* BNBuildHelper.m */,
+				B82A5F4E26B7E146000CC73F /* BNToolHelper.h */,
+				B82A5F5026B7E146000CC73F /* BNToolHelper.m */,
+			);
+			path = Helper;
+			sourceTree = "<group>";
+		};
+		B82A5F5326B7E15B000CC73F /* View */ = {
+			isa = PBXGroup;
+			children = (
+				B82A5F5426B7E168000CC73F /* BNButton.h */,
+				B82A5F5526B7E168000CC73F /* BNButton.m */,
+			);
+			path = View;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -268,8 +337,15 @@
 			files = (
 				B82A5F1026B7DFFF000CC73F /* ViewController.m in Sources */,
 				B82A5F0A26B7DFFF000CC73F /* AppDelegate.m in Sources */,
+				B82A5F5126B7E146000CC73F /* BNBuildHelper.m in Sources */,
+				B82A5F4426B7E03A000CC73F /* BNCommonBusinessView.m in Sources */,
+				B82A5F5626B7E168000CC73F /* BNButton.m in Sources */,
 				B82A5F1B26B7E000000CC73F /* main.m in Sources */,
+				B82A5F4526B7E03A000CC73F /* BNCommonPanelView.m in Sources */,
 				B82A5F0D26B7DFFF000CC73F /* SceneDelegate.m in Sources */,
+				B82A5F5226B7E146000CC73F /* BNToolHelper.m in Sources */,
+				B82A5F4B26B7E0D7000CC73F /* UIView+Extend.m in Sources */,
+				B82A5F4626B7E03A000CC73F /* BNCommonPanelViewInfo.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
